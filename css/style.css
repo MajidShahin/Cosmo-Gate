@@ -20,7 +20,7 @@ body {
 
 #showcase {
  position: relative;
- background: url("/img/Hero.jpg");
+ background: url("img/Hero.jpg");
  min-height: 700px;
 }
 
@@ -83,7 +83,7 @@ body {
 
 #submit {
   position: relative;
-  background: url("/img/Submit.jpg");
+  background: url("img/Submit.jpg");
   min-height: 700px;
   /* text-shadow: 2px 2px 5px #000; */
   font-family: 'Mansalva';
