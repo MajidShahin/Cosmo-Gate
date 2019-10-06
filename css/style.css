@@ -1,0 +1,145 @@
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+
+body {
+  /* font-family: 'open sans Condensed'; */
+
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #006c3b;
+  opacity: 0.9;
+  background: #81c864;
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 20px;
+}
+
+#showcase {
+ position: relative;
+ background: url("/img/Hero.jpg");
+ min-height: 700px;
+}
+
+#showcase .primary-overlay {
+ background: rgba(0, 107, 58, 0.5);
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+
+#about {
+  background-color: #252525;
+}
+
+#spiriulina {}
+
+/* MENU */
+
+#menu {
+  background-color: #363a33;
+}
+
+#Box1 {
+  background-color: #b2a896;
+}
+
+#Box4 {
+  background-color: #efe9df;
+}
+
+.text-min-height {
+  max-height: 200px;
+  min-height: 110px;
+}
+
+/* MENU ENDS */
+
+/* DISCOVER */
+
+#discover {
+  background-color: #252525;
+}
+
+#after h1:after {
+  display: block;
+  height: 4px;
+  background-color: #00ab4c;
+  content: '';
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* DISCOVER ENDS */
+
+/* SUBMIT */
+
+#submit {
+  position: relative;
+  background: url("/img/Submit.jpg");
+  min-height: 700px;
+  /* text-shadow: 2px 2px 5px #000; */
+  font-family: 'Mansalva';
+  font-size: 150%;
+ }
+
+#shadow {
+  text-shadow: 2px 2px 5px #000;
+}
+
+#form {
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+/* SUBMIT ENDS */
+
+/* FOOTER */
+
+#footer-contact {
+  background-color: #363a33;
+}
+
+#footer-contact i {
+  font-size: 200%;
+  color: #fff;
+  margin: auto;
+}
+
+#facebook :hover {
+  color: #3b5998;
+  transition: 0.5s;
+}
+
+#twitter :hover {
+  color: #1da1f2;
+  transition: 0.5s;
+}
+
+#instagram :hover {
+  color: #c13584;
+  transition: 0.5s;
+}
+
+#youtube :hover {
+  color: #ff0000;
+  transition: 0.5s;
+}
+
+#google :hover {
+  color: #dd4b39;
+  transition: 0.5s;
+}
+
+#footer-about {
+  background-color: #252525;
+}
+
+/* FOOTER */
