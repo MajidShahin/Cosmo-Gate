@@ -133,8 +133,8 @@ body {
   transition: 0.5s;
 }
 
-#google :hover {
-  color: #dd4b39;
+#linkedin :hover {
+  color: #0077b5;
   transition: 0.5s;
 }
 
@@ -144,6 +144,24 @@ body {
 
 #footer-about li {
   list-style: none;
+}
+
+#IRIS .fa-copyright {
+  color: #01295c;
+  text-shadow: 1px 1px 1px #999999;
+}
+
+#IRIS a{
+  text-decoration: none;
+}
+a:link {
+color: #999999;
+}
+a:visited {
+color: #999999;
+}
+a:hover {
+color: #999999;
 }
 
 /* FOOTER */
